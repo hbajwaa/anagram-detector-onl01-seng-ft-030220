@@ -9,9 +9,9 @@ class Anagram
     anagrams = []
     
     array.collect do |wordd| 
-      if @word.split("").sort == wordd.split("").sort
+       @word.split("").sort == wordd.split("").sort
         # anagrams << wordd
-      end
+  
     end
     
     # return anagrams

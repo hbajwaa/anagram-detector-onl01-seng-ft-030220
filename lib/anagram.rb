@@ -10,7 +10,7 @@ class Anagram
     
     array.each do |wordd| 
       if @word.split("").sort == wordd.split("").sort
-        # anagrams << wordd
+        anagrams << wordd
       end
     end
     
